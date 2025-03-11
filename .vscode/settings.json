@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "lsfr.h": "c",
+        "stdlib.h": "c"
+    }
+}
