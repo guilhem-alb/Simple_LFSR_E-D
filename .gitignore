@@ -1,4 +1,5 @@
 #ignore vscode setting
+.vscode
 settings.json
 
 #ignore compiled files
