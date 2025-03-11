@@ -1,0 +1,6 @@
+#ignore vscode setting
+settings.json
+
+#ignore compiled files
+*.o
+main
