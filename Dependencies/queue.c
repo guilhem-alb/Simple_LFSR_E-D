@@ -66,6 +66,7 @@ void pop_front(Queue q)
 
 Data qtop(Queue q)
 {
+    assert(!is_empty_queue(q));
     return q->out->elt;
 }
 

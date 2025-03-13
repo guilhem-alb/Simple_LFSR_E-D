@@ -10,8 +10,8 @@
 #include "Dependencies/queue.h"
 
 //calcule le prochain élément
-bool LFSR_calculateNextEntry(Queue Register, bool* feedbackCoeffs, int registerSize);
+bool LFSR_calculateNextEntry(Queue Register, bool* feedbackCoeffs);
 //Retourne le résultat du LFSR sous forme de tableau
-bool* LFSR_computeLFSR(Queue Register, bool* feedbackCoeffs, int registerSize, int iterations);
+bool* LFSR_computeLFSR(Queue Register, bool* feedbackCoeffs, int iterations);
 
 #endif

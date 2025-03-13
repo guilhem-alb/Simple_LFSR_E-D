@@ -67,7 +67,7 @@ void print_list_aux(List l)
     { } // do nothing
     else
     {
-        printf("%d ", head(l)) ;
+        printf("%ld ", head(l)) ;
         print_list_aux(tail(l)) ;
     }
 }

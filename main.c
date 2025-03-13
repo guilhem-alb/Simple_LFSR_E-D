@@ -38,13 +38,14 @@ int main(){
         printf("entrez le nombre d'itérations souhaité\n");
         scanf("%d", &iterations);
 
-        resultat = LFSR_computeLFSR(LFSR, feedBackCoeffs, taille, iterations);
+        resultat = LFSR_computeLFSR(LFSR, feedBackCoeffs, iterations);
         printArray(resultat, iterations);
    // }
 
     return 0;
 }
 
+// tool function for printing an array
 void printArray(int* array,int arraySize){
     int i;
 
